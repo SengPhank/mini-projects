@@ -1,0 +1,2050 @@
+{
+ "missingCards": [],
+ "cardInformation": {
+  "Little Prince": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Hitpoints": "698"
+   },
+   {
+    "Damage": "102"
+   },
+   {
+    "Hit speed": "1.2"
+   },
+   {
+    "Range": "5.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Golden Knight": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Hitpoints": "1799"
+   },
+   {
+    "Damage": "161"
+   },
+   {
+    "Hit speed": "0.9"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Skeleton King": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Hitpoints": "2298"
+   },
+   {
+    "Damage": "204"
+   },
+   {
+    "Hit speed": "1.6"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Mighty Miner": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Hitpoints": "2250"
+   },
+   {
+    "Damage": "40"
+   },
+   {
+    "Hit speed": "0.4"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Archer Queen": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Hitpoints": "1000"
+   },
+   {
+    "Damage": "225"
+   },
+   {
+    "Hit speed": "1.2"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Goblinstein": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Monk": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Hitpoints": "2214"
+   },
+   {
+    "Damage": "140"
+   },
+   {
+    "Hit speed": "0.8"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Boss Bandit": [
+   {
+    "Rarity": "Champion"
+   },
+   {
+    "Hitpoints": "2624"
+   },
+   {
+    "Damage": "268"
+   },
+   {
+    "Hit speed": "1.2"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "The Log": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Damage": "268"
+   },
+   {
+    "Tower damage": "41"
+   },
+   {
+    "Range": "10.1"
+   }
+  ],
+  "Miner": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1210"
+   },
+   {
+    "Damage": "194"
+   },
+   {
+    "Tower damage": "49"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Princess": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "261"
+   },
+   {
+    "Damage": "168"
+   },
+   {
+    "Hit speed": "3"
+   },
+   {
+    "Range": "9"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Ice Wizard": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "688"
+   },
+   {
+    "Damage": "89"
+   },
+   {
+    "Hit speed": "1.7"
+   },
+   {
+    "Range": "5.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Royal Ghost": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1210"
+   },
+   {
+    "Damage": "261"
+   },
+   {
+    "Hit speed": "1.8"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Bandit": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "906"
+   },
+   {
+    "Damage": "194"
+   },
+   {
+    "Hit speed": "1"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Fisherman": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "870"
+   },
+   {
+    "Damage": "194"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Range": "7"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Electro Wizard": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "714"
+   },
+   {
+    "Damage": "235"
+   },
+   {
+    "Hit speed": "1.8"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Inferno Dragon": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1295"
+   },
+   {
+    "Damage": "35"
+   },
+   {
+    "Hit speed": "0.4"
+   },
+   {
+    "Range": "3.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Phoenix": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1052"
+   },
+   {
+    "Damage": "217"
+   },
+   {
+    "Death damage": "163"
+   },
+   {
+    "Hit speed": "1"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Magic Archer": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "529"
+   },
+   {
+    "Damage": "133"
+   },
+   {
+    "Hit speed": "1.1"
+   },
+   {
+    "Range": "7"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Lumberjack": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1282"
+   },
+   {
+    "Damage": "256"
+   },
+   {
+    "Hit speed": "0.8"
+   },
+   {
+    "Speed": "Very fast"
+   }
+  ],
+  "Night Witch": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "906"
+   },
+   {
+    "Damage": "314"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Mother Witch": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "529"
+   },
+   {
+    "Damage": "133"
+   },
+   {
+    "Hit speed": "1"
+   },
+   {
+    "Range": "5.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Ram Rider": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1697"
+   },
+   {
+    "Damage": "250"
+   },
+   {
+    "Hit speed": "1.8"
+   },
+   {
+    "Range": "5.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Graveyard": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Spell radius": "4"
+   },
+   {
+    "Duration": "9"
+   }
+  ],
+  "Goblin Machine": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "2304"
+   },
+   {
+    "Damage": "212"
+   },
+   {
+    "Hit speed": "1.2"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Sparky": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1451"
+   },
+   {
+    "Damage": "1331"
+   },
+   {
+    "Hit speed": "4"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Spirit Empress": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "1192"
+   },
+   {
+    "Damage": "307"
+   },
+   {
+    "Hit speed": "1.4"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Mega Knight": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "3993"
+   },
+   {
+    "Damage": "268"
+   },
+   {
+    "Hit speed": "1.7"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Lava Hound": [
+   {
+    "Rarity": "Legendary"
+   },
+   {
+    "Hitpoints": "3581"
+   },
+   {
+    "Damage": "53"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Range": "3.5"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Mirror": [
+   {
+    "Rarity": "Epic"
+   }
+  ],
+  "Barbarian Barrel": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "240"
+   },
+   {
+    "Range": "4.5"
+   }
+  ],
+  "Wall Breakers": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "330"
+   },
+   {
+    "Damage": "391"
+   },
+   {
+    "Speed": "Very fast"
+   },
+   {
+    "Count": "2"
+   }
+  ],
+  "Goblin Curse": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "210"
+   },
+   {
+    "Tower damage": "42"
+   },
+   {
+    "Spell radius": "3"
+   },
+   {
+    "Duration": "6"
+   }
+  ],
+  "Rage": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "179"
+   },
+   {
+    "Tower damage": "54"
+   },
+   {
+    "Spell radius": "3"
+   },
+   {
+    "Duration": "4.5"
+   }
+  ],
+  "Goblin Barrel": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Spell radius": "1.5"
+   }
+  ],
+  "Guards": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "81"
+   },
+   {
+    "Shield": "256"
+   },
+   {
+    "Damage": "117"
+   },
+   {
+    "Hit speed": "1"
+   },
+   {
+    "Speed": "Fast"
+   },
+   {
+    "Count": "3"
+   }
+  ],
+  "Skeleton Army": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Count": "15"
+   }
+  ],
+  "Vines": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "405"
+   },
+   {
+    "Tower damage": "75"
+   },
+   {
+    "Spell radius": "2.5"
+   },
+   {
+    "Duration": "2.5"
+   }
+  ],
+  "Clone": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Spell radius": "3"
+   }
+  ],
+  "Tornado": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "84"
+   },
+   {
+    "Tower damage": "27"
+   },
+   {
+    "Spell radius": "5.5"
+   },
+   {
+    "Duration": "1.1"
+   }
+  ],
+  "Void": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "960"
+   },
+   {
+    "Tower damage": "144"
+   },
+   {
+    "Spell radius": "2.5"
+   },
+   {
+    "Duration": "4"
+   }
+  ],
+  "Baby Dragon": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1152"
+   },
+   {
+    "Damage": "161"
+   },
+   {
+    "Hit speed": "1.5"
+   },
+   {
+    "Range": "3.5"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Dark Prince": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1200"
+   },
+   {
+    "Shield": "240"
+   },
+   {
+    "Damage": "266"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Freeze": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "115"
+   },
+   {
+    "Tower damage": "35"
+   },
+   {
+    "Spell radius": "3"
+   }
+  ],
+  "Poison": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "736"
+   },
+   {
+    "Tower damage": "184"
+   },
+   {
+    "Spell radius": "3.5"
+   },
+   {
+    "Duration": "8"
+   }
+  ],
+  "Rune Giant": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "2662"
+   },
+   {
+    "Damage": "120"
+   },
+   {
+    "Hit speed": "1.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Hunter": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "885"
+   },
+   {
+    "Damage": "832"
+   },
+   {
+    "Hit speed": "2.2"
+   },
+   {
+    "Range": "4"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Goblin Drill": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1313"
+   },
+   {
+    "Damage": "84"
+   }
+  ],
+  "Witch": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "839"
+   },
+   {
+    "Damage": "135"
+   },
+   {
+    "Hit speed": "1.1"
+   },
+   {
+    "Range": "5.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Balloon": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1679"
+   },
+   {
+    "Damage": "640"
+   },
+   {
+    "Death damage": "240"
+   },
+   {
+    "Hit speed": "2"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Prince": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1920"
+   },
+   {
+    "Damage": "391"
+   },
+   {
+    "Hit speed": "1.4"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Electro Dragon": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "949"
+   },
+   {
+    "Damage": "192"
+   },
+   {
+    "Hit speed": "2.1"
+   },
+   {
+    "Range": "3.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Bowler": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "2081"
+   },
+   {
+    "Damage": "289"
+   },
+   {
+    "Hit speed": "2.5"
+   },
+   {
+    "Range": "4"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Executioner": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1280"
+   },
+   {
+    "Damage": "168"
+   },
+   {
+    "Hit speed": "2.4"
+   },
+   {
+    "Range": "4.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Cannon Cart": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1809"
+   },
+   {
+    "Damage": "212"
+   },
+   {
+    "Hit speed": "0.9"
+   },
+   {
+    "Range": "5.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Giant Skeleton": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "3617"
+   },
+   {
+    "Damage": "276"
+   },
+   {
+    "Death damage": "535"
+   },
+   {
+    "Hit speed": "1.4"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Lightning": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Damage": "1057"
+   },
+   {
+    "Tower damage": "286"
+   },
+   {
+    "Spell radius": "3.5"
+   }
+  ],
+  "Goblin Giant": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "3233"
+   },
+   {
+    "Damage": "176"
+   },
+   {
+    "Hit speed": "1.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "X Bow": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "1600"
+   },
+   {
+    "Damage": "43"
+   },
+   {
+    "Hit speed": "0.3"
+   },
+   {
+    "Range": "11.5"
+   }
+  ],
+  "P.E.K.K.A": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "3760"
+   },
+   {
+    "Damage": "816"
+   },
+   {
+    "Hit speed": "1.8"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Electro Giant": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "3855"
+   },
+   {
+    "Damage": "163"
+   },
+   {
+    "Hit speed": "2.1"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Golem": [
+   {
+    "Rarity": "Epic"
+   },
+   {
+    "Hitpoints": "5120"
+   },
+   {
+    "Damage": "312"
+   },
+   {
+    "Death damage": "225"
+   },
+   {
+    "Hit speed": "2.5"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Heal Spirit": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "230"
+   },
+   {
+    "Damage": "110"
+   },
+   {
+    "Range": "2.5"
+   },
+   {
+    "Speed": "Very fast"
+   }
+  ],
+  "Ice Golem": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1318"
+   },
+   {
+    "Damage": "84"
+   },
+   {
+    "Hit speed": "2.5"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Suspicious Bush": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "81"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Tombstone": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "529"
+   }
+  ],
+  "Mega Minion": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "837"
+   },
+   {
+    "Damage": "312"
+   },
+   {
+    "Hit speed": "1.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Dart Goblin": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "261"
+   },
+   {
+    "Damage": "156"
+   },
+   {
+    "Hit speed": "0.8"
+   },
+   {
+    "Range": "6.5"
+   },
+   {
+    "Speed": "Very fast"
+   }
+  ],
+  "Earthquake": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Damage": "243"
+   },
+   {
+    "Tower damage": "159"
+   },
+   {
+    "Building damage": "849"
+   },
+   {
+    "Spell radius": "3.5"
+   },
+   {
+    "Duration": "3"
+   }
+  ],
+  "Elixir Golem": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1569"
+   },
+   {
+    "Damage": "253"
+   },
+   {
+    "Hit speed": "1.1"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Fireball": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Damage": "688"
+   },
+   {
+    "Tower damage": "207"
+   },
+   {
+    "Spell radius": "2.5"
+   }
+  ],
+  "Mini P.E.K.K.A": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1428"
+   },
+   {
+    "Damage": "755"
+   },
+   {
+    "Hit speed": "1.6"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Musketeer": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "721"
+   },
+   {
+    "Damage": "217"
+   },
+   {
+    "Hit speed": "1"
+   },
+   {
+    "Range": "6"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Goblin Cage": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "780"
+   }
+  ],
+  "Goblin Hut": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1305"
+   },
+   {
+    "Range": "6"
+   }
+  ],
+  "Valkyrie": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1907"
+   },
+   {
+    "Damage": "266"
+   },
+   {
+    "Hit speed": "1.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Battle Ram": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "967"
+   },
+   {
+    "Damage": "286"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Bomb Tower": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1356"
+   },
+   {
+    "Damage": "222"
+   },
+   {
+    "Hit speed": "1.8"
+   },
+   {
+    "Range": "6"
+   }
+  ],
+  "Flying Machine": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "614"
+   },
+   {
+    "Damage": "171"
+   },
+   {
+    "Hit speed": "1.1"
+   },
+   {
+    "Range": "6"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Hog Rider": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1697"
+   },
+   {
+    "Damage": "317"
+   },
+   {
+    "Hit speed": "1.6"
+   },
+   {
+    "Speed": "Very fast"
+   }
+  ],
+  "Battle Healer": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1717"
+   },
+   {
+    "Damage": "148"
+   },
+   {
+    "Hit speed": "1.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Furnace": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "896"
+   },
+   {
+    "Damage": "135"
+   },
+   {
+    "Hit speed": "1.8"
+   },
+   {
+    "Range": "6"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Zappies": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "529"
+   },
+   {
+    "Damage": "117"
+   },
+   {
+    "Hit speed": "2.1"
+   },
+   {
+    "Range": "4.5"
+   },
+   {
+    "Speed": "Medium"
+   },
+   {
+    "Count": "3"
+   }
+  ],
+  "Goblin Demolisher": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1300"
+   },
+   {
+    "Damage": "186"
+   },
+   {
+    "Death damage": "404"
+   },
+   {
+    "Hit speed": "1.2"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Giant": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "4090"
+   },
+   {
+    "Damage": "253"
+   },
+   {
+    "Hit speed": "1.5"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Inferno Tower": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1748"
+   },
+   {
+    "Damage": "43"
+   },
+   {
+    "Hit speed": "0.4"
+   },
+   {
+    "Range": "6"
+   }
+  ],
+  "Wizard": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "755"
+   },
+   {
+    "Damage": "281"
+   },
+   {
+    "Hit speed": "1.4"
+   },
+   {
+    "Range": "5.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Royal Hogs": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "837"
+   },
+   {
+    "Damage": "74"
+   },
+   {
+    "Hit speed": "1.2"
+   },
+   {
+    "Speed": "Very fast"
+   },
+   {
+    "Count": "4"
+   }
+  ],
+  "Rocket": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Damage": "1484"
+   },
+   {
+    "Tower damage": "371"
+   },
+   {
+    "Spell radius": "2"
+   }
+  ],
+  "Barbarian Hut": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1164"
+   }
+  ],
+  "Elixir Collector": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Hitpoints": "1070"
+   }
+  ],
+  "Three Musketeers": [
+   {
+    "Rarity": "Rare"
+   },
+   {
+    "Count": "3"
+   }
+  ],
+  "Skeletons": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "81"
+   },
+   {
+    "Damage": "81"
+   },
+   {
+    "Hit speed": "1"
+   },
+   {
+    "Speed": "Fast"
+   },
+   {
+    "Count": "3"
+   }
+  ],
+  "Electro Spirit": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "230"
+   },
+   {
+    "Damage": "99"
+   },
+   {
+    "Range": "2.5"
+   },
+   {
+    "Speed": "Very fast"
+   }
+  ],
+  "Fire Spirit": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "230"
+   },
+   {
+    "Damage": "207"
+   },
+   {
+    "Range": "2.5"
+   },
+   {
+    "Speed": "Very fast"
+   }
+  ],
+  "Ice Spirit": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "230"
+   },
+   {
+    "Damage": "110"
+   },
+   {
+    "Range": "2.5"
+   },
+   {
+    "Speed": "Very fast"
+   },
+   {
+    "Duration": "1.1"
+   }
+  ],
+  "Goblins": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "202"
+   },
+   {
+    "Damage": "120"
+   },
+   {
+    "Hit speed": "1.1"
+   },
+   {
+    "Speed": "Very fast"
+   },
+   {
+    "Count": "4"
+   }
+  ],
+  "Spear Goblins": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "133"
+   },
+   {
+    "Damage": "81"
+   },
+   {
+    "Hit speed": "1.7"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Very fast"
+   },
+   {
+    "Count": "3"
+   }
+  ],
+  "Bomber": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "332"
+   },
+   {
+    "Damage": "225"
+   },
+   {
+    "Hit speed": "1.8"
+   },
+   {
+    "Range": "4.5"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Bats": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "81"
+   },
+   {
+    "Damage": "81"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Speed": "Very fast"
+   },
+   {
+    "Count": "5"
+   }
+  ],
+  "Zap": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Damage": "192"
+   },
+   {
+    "Tower damage": "58"
+   },
+   {
+    "Spell radius": "2.5"
+   }
+  ],
+  "Giant Snowball": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Damage": "179"
+   },
+   {
+    "Tower damage": "54"
+   },
+   {
+    "Spell radius": "2.5"
+   }
+  ],
+  "Berserker": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "896"
+   },
+   {
+    "Damage": "102"
+   },
+   {
+    "Hit speed": "0.5"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Archers": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "304"
+   },
+   {
+    "Damage": "112"
+   },
+   {
+    "Hit speed": "0.9"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Medium"
+   },
+   {
+    "Count": "2"
+   }
+  ],
+  "Arrows": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Damage": "366"
+   },
+   {
+    "Tower damage": "93"
+   },
+   {
+    "Spell radius": "3.5"
+   }
+  ],
+  "Knight": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "1766"
+   },
+   {
+    "Damage": "202"
+   },
+   {
+    "Hit speed": "1.2"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Minions": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "230"
+   },
+   {
+    "Damage": "117"
+   },
+   {
+    "Hit speed": "1.1"
+   },
+   {
+    "Range": "2.5"
+   },
+   {
+    "Speed": "Fast"
+   },
+   {
+    "Count": "3"
+   }
+  ],
+  "Cannon": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "824"
+   },
+   {
+    "Damage": "212"
+   },
+   {
+    "Hit speed": "1"
+   },
+   {
+    "Range": "5.5"
+   }
+  ],
+  "Goblin Gang": [
+   {
+    "Rarity": "Common"
+   }
+  ],
+  "Skeleton Barrel": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "532"
+   },
+   {
+    "Death damage": "145"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Firecracker": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "304"
+   },
+   {
+    "Damage": "320"
+   },
+   {
+    "Hit speed": "3"
+   },
+   {
+    "Range": "6"
+   },
+   {
+    "Speed": "Fast"
+   }
+  ],
+  "Royal Delivery": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Damage": "437"
+   },
+   {
+    "Spell radius": "3"
+   }
+  ],
+  "Skeleton Dragons": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "560"
+   },
+   {
+    "Damage": "161"
+   },
+   {
+    "Hit speed": "1.9"
+   },
+   {
+    "Range": "3.5"
+   },
+   {
+    "Speed": "Fast"
+   },
+   {
+    "Count": "2"
+   }
+  ],
+  "Mortar": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "1369"
+   },
+   {
+    "Damage": "266"
+   },
+   {
+    "Hit speed": "5"
+   },
+   {
+    "Range": "11.5"
+   }
+  ],
+  "Tesla": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "1152"
+   },
+   {
+    "Damage": "220"
+   },
+   {
+    "Hit speed": "1.1"
+   },
+   {
+    "Range": "5.5"
+   }
+  ],
+  "Barbarians": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "670"
+   },
+   {
+    "Damage": "192"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Speed": "Medium"
+   },
+   {
+    "Count": "5"
+   }
+  ],
+  "Minion Horde": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Range": "2.5"
+   },
+   {
+    "Count": "6"
+   }
+  ],
+  "Rascals": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Speed": "Medium"
+   }
+  ],
+  "Royal Giant": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "3164"
+   },
+   {
+    "Damage": "307"
+   },
+   {
+    "Hit speed": "1.7"
+   },
+   {
+    "Range": "5"
+   },
+   {
+    "Speed": "Slow"
+   }
+  ],
+  "Elite Barbarians": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "1341"
+   },
+   {
+    "Damage": "384"
+   },
+   {
+    "Hit speed": "1.4"
+   },
+   {
+    "Speed": "Fast"
+   },
+   {
+    "Count": "2"
+   }
+  ],
+  "Royal Recruits": [
+   {
+    "Rarity": "Common"
+   },
+   {
+    "Hitpoints": "547"
+   },
+   {
+    "Shield": "240"
+   },
+   {
+    "Damage": "133"
+   },
+   {
+    "Hit speed": "1.3"
+   },
+   {
+    "Speed": "Medium"
+   },
+   {
+    "Count": "6"
+   }
+  ]
+ }
+}
