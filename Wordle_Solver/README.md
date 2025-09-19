@@ -17,4 +17,8 @@ The input is as follows:
 - int Number of Words
 - the ith Character of a word followed by its color.
   * For example, if your word was
-<code style="color : name_color">text</code> 
+<code style="color : greenyellow">C</code>
+<code style="color : black">A</code>
+<code style="color : black">N</code>
+<code style="color : gold">D</code>
+<code style="color : black">Y</code>
