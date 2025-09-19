@@ -4,11 +4,11 @@ You also don't want to be a dirty cheater but just want a little hand?
 This project will take in your current inputs, and give you all the next valid words so you can complete today's wordle!
 
 # Build
-To run the project, go inside
+To run the project, go inside the folder
 ```bash
 Wordle_Solver
 ```
-folder and run 
+Then run in the terminal: 
 ```bash
 make run
 ```
