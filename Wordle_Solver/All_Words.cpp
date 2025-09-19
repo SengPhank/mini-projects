@@ -11,13 +11,10 @@ All_Words::All_Words() {
     json j;
     file >> j; // parse JSON
     // Convert JSON array -> vector<string>
-    std::vector<std::string> temp = j.get<std::vector<std::string>>();
-    // Construct unordered_set from vector
-    for (std::string word : temp) {
-        this->word_set.insert(word);
-    }
+    this->word_vector = j.get<std::vector<std::string>>();
+    return;
 }
 
-std::unordered_set<std::string> All_Words::retrieve_words() {
-    return this->word_set;
+std::vector<std::string> All_Words::retrieve_words_vector() {
+    return this->word_vector;
 }
