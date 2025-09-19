@@ -1,3 +1,0 @@
-/home/acid/stuff/CPP_Random/Wordle/build/_deps/json-subbuild/CMakeFiles/json-populate.dir
-/home/acid/stuff/CPP_Random/Wordle/build/_deps/json-subbuild/CMakeFiles/edit_cache.dir
-/home/acid/stuff/CPP_Random/Wordle/build/_deps/json-subbuild/CMakeFiles/rebuild_cache.dir
