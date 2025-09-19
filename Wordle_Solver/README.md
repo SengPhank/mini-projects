@@ -17,5 +17,5 @@ The input is as follows:
 - int Number of Words
 - the ith Character of a word followed by its color.
   * For example, if your word was
-$${\color{green}C}$$ $${\color{lightblue}A \space N}$$ $${\color{yellow}D}$$ $${\color{lightblue}Y}$$
+$${\color{green}C}$$ $${\color{grey}A \space N}$$ $${\color{yellow}D}$$ $${\color{grey}Y}$$
 
