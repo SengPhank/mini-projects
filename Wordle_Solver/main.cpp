@@ -7,21 +7,23 @@
 #include "All_Words.h"
 
 // Helper ==========================
-char to_lower(char c) {
-    if (c >= 'A' && c <= 'Z') return c + 32;
-    return c;
+void to_lower(std::string& s) {
+    for (char& c : s)
+        if (c >= 'A' && c <= 'Z') c += 32;
+
+    return;
 }
 
 // Update
-void updatePossible(std::vector<std::string>& PossibleWordsVector,  std::unordered_map<int, std::unordered_set<char>>& notIn, std::unordered_set<char>& nonExist, std::unordered_map<int, char>& greenPosition, std::unordered_set<char>& exists) {
+void updatePossible(std::vector<std::string>& PossibleWordsVector, std::unordered_map<int, std::unordered_set<char>>& notIn, std::unordered_set<char>& nonExist, std::unordered_map<int, char>& greenPosition, std::unordered_set<char>& exists) {
     std::unordered_set<std::string> PossibleWordsSet(PossibleWordsVector.begin(), PossibleWordsVector.end());
     for (std::string word : PossibleWordsVector) {
         bool bad = false;
-        std::unordered_set<char> amountDiffered; // how many characters differ. if it is more than what has been found, bad!
+        int amountDiffered = 0; // how many characters differ. if it is more than what has been found, bad!
         // Check individual char for any collusion
         for (int i = 0; i < 5; i++) {
-            if (!exists.count(word[i])) amountDiffered.insert(word[i]);
-            if (amountDiffered.size() > 5-exists.size()) bad = true;
+            if (!exists.count(word[i])) amountDiffered++;
+            if (amountDiffered > 5-exists.size()) bad = true;
             if (bad) break;
 
             // Check for Green:
@@ -53,13 +55,13 @@ void isGreen(char c, int position, std::unordered_set<char>& exists, std::unorde
     greenPosition[position] = c;
     // Mark as seen
     exists.insert(c);
-    if (nonExist.count(c)) nonExist.erase(c);
+    nonExist.erase(c);
     return;
 }
 void isYellow(char c, int position, std::unordered_set<char>& exists, std::unordered_map<int, std::unordered_set<char>>& notIn, std::unordered_set<char>& nonExist) {
     // Mark as seen
     exists.insert(c);
-    if (nonExist.count(c)) nonExist.erase(c); // remove it from nonExist, since it clearly exists
+    nonExist.erase(c); // remove it from nonExist, since it clearly exists
     notIn[position].insert(c);
     return;
 }
@@ -71,16 +73,17 @@ void userWord(std::unordered_set<char>& exists, std::unordered_map<int, std::uno
         std::cout << ". Character " << i+1 << ": ";
         std::string userInput;
         std::cin >> userInput;
-        switch (to_lower(userInput[1]))
+        to_lower(userInput);
+        switch (userInput[1])
         {
         case 'g':
-            isGreen(to_lower(userInput[0]), i, exists, nonExist, greenPosition);
+            isGreen(userInput[0], i, exists, nonExist, greenPosition);
             break;
         case 'y': 
-            isYellow(to_lower(userInput[0]), i, exists, notIn, nonExist);
+            isYellow(userInput[0], i, exists, notIn, nonExist);
             break;
         default:
-            isBlack(to_lower(userInput[0]), i, exists, notIn, nonExist);
+            isBlack(userInput[0], i, exists, notIn, nonExist);
             break;
         } 
     }
@@ -120,9 +123,6 @@ int main(void) {
         std::cout << i << std::endl;
     }
     std::cout << PossibleWordsVector.size() << " POSSIBLE WORDS to choose from " << std::endl; 
-    for (char i : exists) {
-        std::cout << "Exists: " << i << std::endl;
-    }
     std::cout << " ==================== PROJECT ENDS ====================" << std::endl;
     return 0;
 }
