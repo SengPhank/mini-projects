@@ -1,9 +1,8 @@
 #pragma once
+#include <string>
 #include <wx/wx.h>
 
-class Frame
-{
+class Frame : public wxFrame {
 public:
-    Frame();
-    ~Frame();
+    Frame(std::string windowName);
 };

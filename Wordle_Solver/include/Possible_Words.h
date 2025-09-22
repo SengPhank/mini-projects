@@ -12,16 +12,15 @@ private:
     std::unordered_map<int, char> greenPosition; // {Index : Character exists}
     std::unordered_set<char> blackPosition; // {char doesnt/exists}
 
-    void isBlack(char c, int position, std::unordered_set<char>& exists, std::unordered_map<int, std::unordered_set<char>>& notIn, std::unordered_set<char>& nonExist);
-    void isGreen(char c, int position, std::unordered_set<char>& exists, std::unordered_set<char>& nonExist, std::unordered_map<int, char>& greenPosition);
-    void isYellow(char c, int position, std::unordered_set<char>& exists, std::unordered_map<int, std::unordered_set<char>>& notIn, std::unordered_set<char>& nonExist);
-    void updatePossible(std::vector<std::string>& PossibleWordsVector, std::unordered_map<int, std::unordered_set<char>>& notIn, std::unordered_set<char>& nonExist, std::unordered_map<int, char>& greenPosition, std::unordered_set<char>& exists);
+    void isBlack(char c, int position);
+    void isGreen(char c, int position);
+    void isYellow(char c, int position);
+    void updatePossible();
 
 public:
     Possible_Words();
     void InputWord(std::string word); // Character, followed by the color
     std::vector<std::string> get_Possible_Words();
 
-    ~Possible_Words();
 };
 
