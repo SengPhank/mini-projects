@@ -2,11 +2,17 @@
 CC = g++
 CFLAGS = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
-OUT_NAME = out
+.PHONY = build run clean
 
-build: main.cpp
-	${CC} -o ${OUT_NAME} game.cpp $(CFLAGS)
+SRCFILES = main.cpp minesweeper.cpp
+HEADERFILES = minesweeper.h
 
-run:
-	./out
+build: 
+	${CC} ${SRCFILES} $(CFLAGS)
+
+run:	
+	./a.out
+
+clean:
+	rm a.out
 

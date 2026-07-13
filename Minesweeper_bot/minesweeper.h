@@ -1,7 +1,9 @@
 #ifndef minesweeper
 #define minesweeper
 
+#include <iostream>
 #include <vector>
+#include <numeric>
 
 #include <cstdlib>
 #include <ctime>
@@ -12,33 +14,17 @@ private:
     std::vector<std::vector<int>> board;
 
 public:
-    Minesweeper(int rows, int cols, int mineAmounts) {
-        std::srand(std::time(NULL)); // TODO: mv to main file
+    Minesweeper(int rows, int cols, int mineAmounts);
+    
+    void vectorShuffle(std::vector<int>& v);
+    void boardPrint();
 
-        numRow = rows, numCol = cols;
-        numMines = std::min(mineAmounts, numRow*numCol);
-        board.resize(numRow, std::vector<int>(numCol)); 
-    }
+    // === Methods of occupying minesweeper board
 
-    // spreads the mines around the board using PURE randomness
-    void pureRandomSprinkler() {
-        int mineRemaining = numMines;
-        std::vector<int> valid(numRow*numCol);
-        
-        // (x - c) / n = r, find this using x%n 
-        std::iota(valid.begin(), valid.end(), 0);
-    }
+    // Random: spreads the mines around the board using PURE randomness
+    void randomMineAlgorithm();
 
     ~Minesweeper();
 };
-
-Minesweeper::Minesweeper(/* args */)
-{
-}
-
-Minesweeper::~Minesweeper()
-{
-}
-
 
 #endif

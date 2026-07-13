@@ -1,19 +1,21 @@
 
 #include "raylib.h"
+#include "minesweeper.h"
 
 //------------------------------------------------------------------------------------
 // Program main entry point
 //------------------------------------------------------------------------------------
-int main(void)
-{
-    // Initialization
-    //--------------------------------------------------------------------------------------
+int main(void) {
+    // ----------------- Initialization
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+    // Raylib settings
+    InitWindow(screenWidth, screenHeight, "Raylib - C++ Minesweeper");
+    SetTargetFPS(60);
 
-    SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
+    // Minesweeper settings
+    Minesweeper msGame(5, 6, 5);
     //--------------------------------------------------------------------------------------
 
     // Main game loop
