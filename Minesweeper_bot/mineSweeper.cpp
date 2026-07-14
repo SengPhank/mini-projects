@@ -1,12 +1,10 @@
-#include "minesweeper.h"
+#include "mineSweeper.h"
 
 // private:
 //     int numRow, numCol, numMines;
 //     std::vector<std::vector<int>> board;
 
 Minesweeper::Minesweeper(int rows, int cols, int mineAmounts) {
-    std::srand(std::time(NULL)); // TODO: mv to main file
-
     numRow = rows, numCol = cols;
     numMines = std::min(mineAmounts, numRow*numCol);
     board.resize(numRow, std::vector<int>(numCol)); 

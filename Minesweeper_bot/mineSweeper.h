@@ -5,9 +5,6 @@
 #include <vector>
 #include <numeric>
 
-#include <cstdlib>
-#include <ctime>
-
 class Minesweeper {
 private:
     int numRow, numCol, numMines;
