@@ -4,23 +4,6 @@
 //     int numRow, numCol, numMines;
 //     std::vector<std::vector<int>> board;
 
-Minesweeper::Minesweeper(int rows, int cols, int mineAmounts) {
-    numRow = rows, numCol = cols;
-    numMines = std::min(mineAmounts, numRow*numCol);
-    board.resize(numRow, std::vector<int>(numCol)); 
-
-    // populate board
-    randomMineAlgorithm();
-    boardPrint();
-}
-
-// randomly shuffles the given vector (Durstenfeld's algorithm)
-void Minesweeper::vectorShuffle(std::vector<int>& v) {
-    for (int i = v.size()-1; i >= 0; i--) {
-        int randNum = rand() % (i+1);
-        std::swap(v[i], v[randNum]);
-    }   
-}
 
 // spreads the mines around the board using PURE randomness
 void Minesweeper::randomMineAlgorithm() {
@@ -31,34 +14,77 @@ void Minesweeper::randomMineAlgorithm() {
             int newR = r+dir[i];
             int newC = c+dir[i+1];
             if (newR < 0 || newC < 0 || newR >= numRow || newC >= numCol) continue;
-            board[newR][newC]++;
+            board[helpy.convert2DTo1D(numCol, newR, newC)]++;
         }
     };
 
     std::vector<int> choices(numRow*numCol);
     std::iota(choices.begin(), choices.end(), 0);
     
-    vectorShuffle(choices);
-    // (x - c) / n = r, and find c using x%n 
+    helpy.vectorShuffle(choices);
     for (int i = 0; i < numMines; i++) {
-        int c = choices[i]%numCol;
-        int r = (choices[i] - c) / numCol;
-
-        board[r][c] = -10;
+        auto [r, c] = helpy.convert1DTo2D(numCol, choices[i]);
+        board[choices[i]] = CONSTANTS::MINE_VALUE;
         
         increaseNeighbours(card, r, c);
         increaseNeighbours(diag, r, c);
     }
 }
 
-void Minesweeper::boardPrint(){
-    for (int i = 0; i < numRow; i++) {
-        for (int j = 0; j < numCol; j++) {
-            std::cout << (char) ((board[i][j] < 0) ? 'X' : ('0'+board[i][j])) << " ";
-        }
-        std::cout << "\n";
-    }
+// PUBLIC =======================================================================================
+Minesweeper::Minesweeper(int rows, int cols, int mineAmounts) {
+    numRow = rows, numCol = cols;
+    numMines = std::min(mineAmounts, numRow*numCol);
+    board.resize(numRow * numCol); 
+    explored.resize(numRow * numCol, CONSTANTS::UNDISCOVERED);
+
+    // populate board
+    randomMineAlgorithm();
+    helpy.board1DPrint(board, numRow, numCol);
 }
+
+void Minesweeper::restartGame() {
+    randomMineAlgorithm();
+    explored.assign(numRow*numCol, CONSTANTS::UNDISCOVERED);
+}
+
+int Minesweeper::discoverGrid(int r, int c) {
+    int x = helpy.convert2DTo1D(numCol, r, c);
+    if (board[x] < 0) {
+        explored[x] = CONSTANTS::MINE_VALUE;
+        return CONSTANTS::MINE_VALUE; // CLICKED ON A MINE!
+    }
+
+    std::queue<int> bfs;
+    explored[x] = board[x];
+    bfs.push(x);
+
+    int dir[5] = {1, 0, -1, 0, 1};
+    while (!bfs.empty()) {
+        int curX = bfs.front(); bfs.pop();
+        auto [r, c] = helpy.convert1DTo2D(numCol, curX); 
+        
+        if (explored[curX] != 0) continue;
+
+        for (int i = 0; i < 4; i++) {
+            int newR = r+dir[i];
+            int newC = c+dir[i+1];
+            if (newR < 0 || newC < 0 || newR >= numRow || newC >= numCol) continue;
+            int newX = helpy.convert2DTo1D(numCol, newR, newC);
+            if (explored[newX] == -1) {
+                explored[newX] = board[newX];
+                bfs.push(newX);
+            }
+        }
+    }
+    return explored[x];
+}
+
+// ENCAPSULATION --------------------------------------------------------------------------------
+std::vector<int>& Minesweeper::getExplored() {
+    return this->explored;
+}
+
 
 Minesweeper::~Minesweeper() {}
 

@@ -1,7 +1,10 @@
 #ifndef CONSTANTS
 #define CONSTANTS
+#include <cstdint> 
 
-
+const int MINE_VALUE = INT32_MIN;
+const int UNDISCOVERED = -1;
+const int INVALID = -1;
 // ========================= Window (UI) settings ===============================
 const int targetFPS = 60;
 const int borderPadding = 10;
