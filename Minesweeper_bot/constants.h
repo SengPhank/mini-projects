@@ -18,7 +18,7 @@ const int screenWidth = 300;
 const int screenHeight = 400;
 
 // ======================== Game Settings ========================================
-const int boardRow = 7;
-const int boardCol = 4;
-const int boardMines = 8;
+const int boardRow = 3;
+const int boardCol = 3;
+const int boardMines = 2;
 #endif
