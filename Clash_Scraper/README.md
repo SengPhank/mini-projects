@@ -11,8 +11,8 @@
 
 ## About
 > Miniscule "project" that can pull the latest card information for modelling how card balancing changes over time, using `requests` and `beautifulSoup` 
-<br>
-> This code pulls from the url `https://www.deckshop.pro/card/list`
+>
+> This code pulls from the url ` https://www.deckshop.pro/card/list `
 
 Run the code and watch the latest cards update inside of `ClashCards.json`!
 
