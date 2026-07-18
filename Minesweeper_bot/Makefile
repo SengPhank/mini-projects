@@ -1,11 +1,11 @@
 
 CC = g++
-CFLAGS = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+CFLAGS = -std=c++17 -Iinclude -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 .PHONY = build run clean
 
-SRCFILES = main.cpp mineSweeper.cpp gameWindow.cpp helper.cpp gridMouseTracker.cpp
-HEADERFILES = constants.h mineSweeper.h gameWindow.h helper.h gridMouseTracker.h
+SRCFILES = src/main.cpp src/mineSweeper.cpp src/gameWindow.cpp src/helper.cpp src/gridMouseTracker.cpp
+HEADERFILES = include/constants.h include/mineSweeper.h include/gameWindow.h include/helper.h include/gridMouseTracker.h
 
 build: 
 	${CC} ${SRCFILES} $(CFLAGS)

@@ -2,8 +2,8 @@
 #include "raylib.h"
 #include "helper.h"
 #include "gameWindow.h"
-#include "constants.h"
 #include "gridMouseTracker.h"
+#include "constants.h"
 
 #include <string>
 #include <iostream>
@@ -23,7 +23,7 @@ int main(void) {
 
     // Raylib settings
     InitWindow(screenWidth, screenHeight, "Raylib - C++ Minesweeper");
-    SetTargetFPS(9999999);
+    SetTargetFPS(CONSTANTS::targetFPS);
     Color colors[10] = {BLUE, VIOLET, GREEN, PURPLE, YELLOW, ORANGE, BROWN, LIME, GOLD, GRAY};
 
     // Minesweeper settings
